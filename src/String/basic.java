@@ -1,11 +1,19 @@
 package String;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class basic {
     public static void main(String[] args) {
 
+        Scanner sc= new Scanner(System.in);
+        //if we are using Scanner to take input int and string at one place so do
+        int num=Integer.parseInt(sc.nextLine());
+        String strt=sc.nextLine();
 
+        sc.close();
+
+        System.out.println("my name "+ strt +" number "+num);
 
         String name="Ram";
         String name2="   RAm   ";
